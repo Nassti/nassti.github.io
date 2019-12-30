@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Scupturer's Portfolio</title>
+    <link rel="stylesheet" href="../css/fonts-awesome/font-awesome.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<header>
+    <div class="container header__wrap">
+
+
+        <div class="logo">
+            <div class="logo__wrap">
+                <a href="../index.html">
+                    <h1 class="text-color-hover">Irina</h1>
+                    <span>Sculpturer's Portfolio</span>
+                </a>
+            </div>
+        </div>
+
+
+        <ul class="social__list">
+            <li><a href="#" class=" line-hover"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#" class=" line-hover"><i class="fa fa-vk"></i></a></li>
+            <li><a href="#" class=" line-hover"><i class="fa fa-instagram"></i></a></li>
+            <li><a href="#" class=" line-hover"><i class="fa fa-twitter"></i></a></li>
+        </ul>
+
+
+        <div class="nav__wrap">
+            <input type="checkbox" id="check-menu">
+            <label for="check-menu" class="bg-color-hover line-hover text-color-hover">
+                <div class="burger-line first"></div>
+                <div class="burger-line second"></div>
+                <div class="burger-line third"></div>
+                <div class="burger-line fourth"></div>
+            </label>
+
+            <nav class="main-menu">
+                <ul>
+                    <li>
+                        <a href="../index.html">Главная</a>
+                    </li>
+                    <li><a href="#">Скетч</a></li>
+                    <li><a href="#">Скульптура</a></li>
+                    <li><a href="about.html">Обо мне</a></li>
+                    <li><a href="blog.html">Блог</a></li>
+                    <li><a href="contacts.html">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+
+
+        <form action="." class="search-form">
+            <input type="checkbox" id="check-search">
+            <label for="check-search" class="check-search"><i class="fa fa-search"></i></label>
+            <div class="search__wrap">
+                <input type="text" placeholder="Ввести...">
+                <button class="bg-color-hover line-hover text-color-hover">Найти</button>
+            </div>
+        </form>
+
+    </div>
+</header>
+<main class="contacts">
+    <div class="container contacts__wrap">
+        <h2>Контакты</h2>
+        <div class="contacts__form">
+            <div class="getInTouch">
+                <h3>Связаться</h3>
+                <div itemscope itemtype="http://schema.org/LocalBusiness">
+                    Phone:
+                    <span itemprop="telephone">
+                        <a href="tel:+79999999999">
+                        999-99-99
+                        </a>
+                    </span>
+                </div>
+                <div>
+                    Email:
+                    <span><a href="mailto:mail@mail.ru?subject=Вопрос с сайта">mail@mail.ru</a></span>
+                </div>
+            </div>
+            <div class="followMe">
+                <h3>Подписаться</h3>
+                <ul>
+                    <li><span>Instagram: <a href="#">instagram.com/</a></span></li>
+                    <li><span>Facebook: <a href="#">facebook.com/</a></span></li>
+                    <li><span>Twitter: <a href="#">twitter.com/</a></span></li>
+                </ul>
+            </div>
+        </div>
+        <h3>Отправить сообщение</h3>
+        <form class="contacts-form" method="post" action=".">
+            <div class="form__input">
+                <label for="subject">Имя</label>
+                <input type="text" name="subject" id="subject" required="required">
+            </div>
+            <div class="form__input">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required="required">
+            </div>
+            <div class="form__input">
+                <label for="message">Сообщение</label>
+                <textarea name="message" id="message" required></textarea>
+            </div>
+            <button class="contacts__button bg-color-hover line-hover text-color-hover">Отправить</button>
+        </form>
+    </div>
+</main>
+<footer>
+    <div class="container">
+        <div class="footer__wrap text-color-hover">
+            <span>&#169;<time datetime="#">2019</time> Ирина Анисимова</span>
+            <ul>
+                <li class="footer__item">
+                    <a href="../index.html" class="text-color-hover">Главная</a>
+                </li>
+                <li class="footer__item"><a href="#" class="text-color-hover">Скетч</a></li>
+                <li class="footer__item"><a href="#" class="text-color-hover">Скульптура</a></li>
+                <li class="footer__item"><a href="about.html" class="text-color-hover">Обо мне</a></li>
+                <li class="footer__item"><a href="blog.html" class="text-color-hover">Блог</a></li>
+                <li class="footer__item"><a href="contacts.html" class="text-color-hover">Контакты</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="scrollUp">
+        <div class="container">
+            <button id="scrollUp">
+                <i class="fa fa-long-arrow-up" aria-hidden="true"></i>
+            </button>
+        </div>
+    </div>
+</footer>
+<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
